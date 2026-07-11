@@ -136,7 +136,7 @@ Now we want to start a new tunnel on the EC2 instance so that it connects to the
    ```bash
    ngrok http --url=<YOUR_URL> 8080
    ```
-   *Your URL can be found from #3 in https://dashboard.ngrok.com/get-started/setup/linux
+   *Your URL can be found from #3 in https://dashboard.ngrok.com/get-started/setup/linux*
    *It will show something like: `https://avalanche-batch-cubicle.ngrok-free.dev -> http://localhost:8080`*
    *(This URL `avalanche-batch-cubicle.ngrok-free.dev` is what Ngrok exposes).*
 
