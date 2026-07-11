@@ -134,9 +134,10 @@ Now we want to start a new tunnel on the EC2 instance so that it connects to the
    ```
 7. Start the tunnel to get a public URL for your app:
    ```bash
-   ngrok http --url=avalanche-batch-cubicle.ngrok-free.dev 8080
+   ngrok http --url=<YOUR_URL> 8080
    ```
-   *It will show: `https://avalanche-batch-cubicle.ngrok-free.dev -> http://localhost:8080`*
+   *Your URL can be found from #3 in https://dashboard.ngrok.com/get-started/setup/linux
+   *It will show something like: `https://avalanche-batch-cubicle.ngrok-free.dev -> http://localhost:8080`*
    *(This URL `avalanche-batch-cubicle.ngrok-free.dev` is what Ngrok exposes).*
 
 8. **Verify:** Try opening your URL (e.g., `https://avalanche-batch-cubicle.ngrok-free.dev/`) in a new browser tab. Click on “Visit Site”. It should show: 
