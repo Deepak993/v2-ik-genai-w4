@@ -121,12 +121,12 @@ Now we want to start a new tunnel on the EC2 instance so that it connects to the
    ```
 5. Install the Ngrok agent by copying the command from Step 1 on the Ngrok dashboard and running it:
    ```bash
-   curl -sSL [https://ngrok-agent.s3.amazonaws.com/ngrok.asc](https://ngrok-agent.s3.amazonaws.com/ngrok.asc) \
-     | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null \
-     && echo "deb [https://ngrok-agent.s3.amazonaws.com](https://ngrok-agent.s3.amazonaws.com) bookworm main" \
-     | sudo tee /etc/apt/sources.list.d/ngrok.list \
-     && sudo apt update \
-     && sudo apt install ngrok
+    curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
+      | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null \
+      && echo "deb https://ngrok-agent.s3.amazonaws.com bookworm main" \
+      | sudo tee /etc/apt/sources.list.d/ngrok.list \
+      && sudo apt update \
+      && sudo apt install ngrok
    ```
 6. Add your authtoken (Make sure you replace `$YOUR_AUTHTOKEN` with your token from the dashboard):
    ```bash
