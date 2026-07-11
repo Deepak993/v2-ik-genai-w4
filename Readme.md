@@ -75,7 +75,7 @@ Once connected to your EC2 instance via SSH, prepare the environment, clone the 
    ```
 2. **Clone the repository:**
    ```bash
-   git clone [https://github.com/just-joseph/v2-ik-genai-w4.git](https://github.com/just-joseph/v2-ik-genai-w4.git)
+   git clone https://github.com/just-joseph/v2-ik-genai-w4.git
    cd v2-ik-genai-w4/backend
    ```
 3. **Set up Python Virtual Environment:**
