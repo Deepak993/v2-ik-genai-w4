@@ -155,7 +155,8 @@ Vercel is basically our React frontend which will run the “chat front end” p
 5. Select **All repositories** and click on **ik-genai-w4** (or `v2-ik-genai-w4`).
 6. Under **Root Directory**, click **Edit**, choose `chat-frontend`, and click **Continue**.
 7. Under **Environment Variables**:
-   * **KEY:** Add `REACT_APP_BACKEND_URL` *(You can see it in code under `chat-frontend > src > app.js`)*
+   * **KEY:** Add `REACT_APP_BACKEND_URL`
+     *(You can see it in code under `chat-frontend > src > app.js`)*
    * **VALUE:** Add the Ngrok URL you copied (e.g., `https://avalanche-batch-cubicle.ngrok-free.dev`)
    * ⚠️ **NOTE: DO NOT ADD A SLASH AT THE END**
 8. Press **Deploy**.
