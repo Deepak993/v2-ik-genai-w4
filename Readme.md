@@ -140,7 +140,7 @@ Now we want to start a new tunnel on the EC2 instance so that it connects to the
    *It will show something like: `https://avalanche-batch-cubicle.ngrok-free.dev -> http://localhost:8080`*
    *(This URL `avalanche-batch-cubicle.ngrok-free.dev` is what Ngrok exposes).*
 
-8. **Verify:** Try opening your URL (e.g., `https://avalanche-batch-cubicle.ngrok-free.dev/`) in a new browser tab. Click on “Visit Site”. It should show: 
+9. **Verify:** Try opening your URL (e.g., `https://avalanche-batch-cubicle.ngrok-free.dev/`) in a new browser tab. Click on “Visit Site”. It should show: 
    `{"message":"Chat Assistant API is running"}`
 
 ---
